@@ -1,0 +1,25 @@
+mysql:
+  host: "localhost"
+  port: 3306
+  database: "minearth"
+  username: "root"
+  password: ""
+  pool-size: 10
+
+settings:
+  tpa-timeout-seconds: 60
+  teleport-warmup-seconds: 5
+  teleport-cooldown-seconds: 120
+  block-in-combat: true
+  auto-bed-home: true
+
+economy:
+  tp-cost: 50.0
+  buy-slot-cost: 5000.0
+
+visuals:
+  particle-effect: "CHERRY_LEAVES"
+  sound-effect: "ENTITY_ENDERMAN_TELEPORT"
+
+home-limits:
+  default: 5

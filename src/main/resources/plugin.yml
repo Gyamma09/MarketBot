@@ -1,0 +1,43 @@
+name: THOME
+version: 1.0.0
+main: it.minearth.thome.THOME
+api-version: '1.21'
+author: Minearth
+description: Sistema Home (MySQL) + TPA con GUI totalmente configurabili.
+softdepend: [LuckPerms, Vault, CombatLogX, DeluxeCombat, ViaVersion, ViaBackwards, Geyser-Spigot]
+
+commands:
+  home:
+    description: Apri la GUI delle tue home o teletrasportati.
+    usage: /home [nome]
+  sethome:
+    description: Imposta una home.
+    usage: /sethome <nome>
+  delhome:
+    description: Elimina una home.
+    usage: /delhome <nome>
+  homes:
+    description: Apri la GUI delle home.
+  tpa:
+    description: Invia una richiesta di teletrasporto.
+    usage: /tpa <giocatore>
+  tpaccept:
+    description: Accetta una richiesta TPA.
+  tpdeny:
+    description: Rifiuta una richiesta TPA.
+  tpatoggle:
+    description: Attiva/disattiva la ricezione di TPA.
+  thome:
+    description: Comando amministrativo (reload).
+    usage: /thome reload
+
+permissions:
+  thome.use:
+    description: Permette l'uso base del plugin.
+    default: true
+  thome.admin:
+    description: Permessi amministrativi.
+    default: op
+  thome.limit.*:
+    description: Permessi limite home dinamici (thome.limit.<n>).
+    default: false

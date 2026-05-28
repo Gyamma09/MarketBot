@@ -1,0 +1,33 @@
+gui-homes:
+  title: "<bold><#f1c40f>Le Tue Home (%current%/%max%)</bold>"
+  rows: 3
+  filler-item: "GRAY_STAINED_GLASS_PANE"
+  home-item: "CYAN_BED"
+  home-lore:
+    - "<dark_gray>» <gray>Mondo: <white>%world%</white></dark_gray>"
+    - "<dark_gray>» <gray>X: <white>%x%</white> Y: <white>%y%</white> Z: <white>%z%</white></dark_gray>"
+    - ""
+    - "<#2ecc71>Clicca per teletrasportarti</#2ecc71>"
+  buy-slot-button:
+    slot: 26
+    item: "GOLD_INGOT"
+    name: "<bold><#f1c40f>Compra +1 Slot Home</#f1c40f></bold>"
+    lore:
+      - "<gray>Costo: <#2ecc71>%cost%$</#2ecc71></gray>"
+      - "<gray>Clicca per sbloccare uno slot permanente extra.</gray>"
+
+gui-tpa-confirm:
+  title: "<bold><#f1c40f>Teletrasporto verso %target%</bold>"
+  rows: 3
+  filler-item: "GRAY_STAINED_GLASS_PANE"
+  head-slot: 11
+  head-lore:
+    - "<dark_gray>» <gray>Dimensione: <#f1c40f>%target_dimension%</#f1c40f></dark_gray>"
+    - "<dark_gray>» <gray>Posizione:</gray></dark_gray>"
+    - "  <white>X: %x% Y: %y% Z: %z%</white>"
+  confirm-button-slot: 15
+  confirm-button-item: "GREEN_WOOL"
+  confirm-button-name: "<bold><#2ecc71>INVIA RICHIESTA TPA</#2ecc71></bold>"
+  confirm-button-lore:
+    - "<gray>Costo: <#e74c3c>%cost%$</#e74c3c></gray>"
+    - "<gray>Clicca qui per inviare la richiesta.</gray>"
